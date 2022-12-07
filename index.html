@@ -1,0 +1,72 @@
+<!-- Created by Kelan Albertson - August 30, 2022 -->
+        
+<!-- HTML file to create the page on which my regex builder will work -->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Regex Builder</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <main id="container">
+
+        <!-- section for a page title and maybe a brief guide -->
+        <section id="headerBox">
+            <div id="header">Kelan Albertson - Regex Builder</div>
+            <button id="helpButton">Help</button>
+            <a href="https://developers.google.com/blockly"><img id="blocklyLogo" src="https://developers.google.com/static/blockly/images/logos/logo_built_on.svg"></a>
+        </section>
+
+        <!-- section for the regex resulting from the blocks -->
+        <section id="regexBox">
+            <div id="regexDiv">
+                <div id="regexLabel">Resulting Regex:  </div>
+                <div id="regexResult"></div>
+            </div>
+            <!-- <button id="button" type="button" title="Generate random string that matches the current regex">Generate Example Match</button> -->
+        </section>
+
+        <!-- section for 5 randomly generated strings that would match the current regex -->
+        <section id="examplesBox">
+            <div id="examplesLabel">Randomly-generated example strings that match the current regex:</div>
+            <div id="examplesResult"></div>
+        </section>
+
+        <!-- section that the Blockly toolbox and workspace will be injected into -->
+        <section id="blocklyBox">
+            <div id="blocklyDiv"></div>
+        </section>
+
+        <!-- The Modal -->
+        <div id="modal">
+
+            <!-- Modal content -->
+            <div id="modalContent">
+                <div id="modalHeader">
+                    <h2>How to Use</h2>
+                    <!-- <span id="close">x</span> -->
+                    <span id="close">&times;</span>
+                </div>
+                <!-- <span id="close">&times;</span> -->
+                <p id="modalText">
+                    tutorial<br>
+                    <br>
+                    <br>
+                    youtube video placeholder<br>
+                </p>
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+            </div>
+  
+        </div>
+
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
