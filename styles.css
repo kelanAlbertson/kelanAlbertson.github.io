@@ -7,19 +7,10 @@
 }
 
 body {
-    /* background-color: lightgray; */
     color: rgb(24, 41, 41);
     overflow-x: hidden;
     font-size: 1.125rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-section {
-    /* border: 3px solid black; */
-}
-
-div {
-    /* border: 1px solid black */
 }
 
 #container {
@@ -41,7 +32,6 @@ div {
     grid-area: header;
     padding-left: 1rem;
     padding-right: 1rem;
-    /* background-color: #cdcccc; */
     background-color: whitesmoke;
     font-size: 30px;
     border-bottom: 3px solid black;
@@ -101,7 +91,6 @@ div {
 #regexResult {
     float: right;
     font-size: 36px;
-    /* font-weight: bold; */
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -151,10 +140,8 @@ div {
 #modalContent {
     background-color: #fefefe;
     margin: 5% auto; /* 15% from the top and centered */
-    /* padding: 1px; */
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
-    /* white-space: pre-line; */
     border-radius: 4px;
 }
 
@@ -177,13 +164,6 @@ div {
     float: right;
     font-size: 36px;
     font-weight: bold;
-    /* float: right;
-    width: 1.5rem;
-    line-height: 1.5rem;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 0.25rem;
-    background-color: lightgray; */
 }
   
 #close:hover,
@@ -191,9 +171,9 @@ div {
     color: white;
     text-decoration: none;
     cursor: pointer;
-    /* background-color: darkgray; */
 }
 
 #modalText {
-    
+    padding: 1rem;
+    font-size: 16px;
 }
