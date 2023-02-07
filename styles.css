@@ -430,3 +430,9 @@ h6 {
 a {
   text-decoration: none;
 }
+.alignLeft {
+    float: left;
+}
+.alignRight {
+    float: right;
+}
