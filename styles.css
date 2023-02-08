@@ -20,6 +20,9 @@ table th {
   font-family: "Merriweather";
   font-style: normal;
 }
+.highlightLink:hover {
+    background-color: #efefef;
+}
 .c2 {
   color: #2079c7;
   font-weight: 700;
@@ -93,8 +96,8 @@ table th {
   margin: 0;
 }
 .c17 {
-  text-decoration-skip-ink: none;
-  -webkit-text-decoration-skip: none;
+  /* text-decoration-skip-ink: none;
+  -webkit-text-decoration-skip: none; */
   color: #2079c7;
   text-decoration: underline;
 }
